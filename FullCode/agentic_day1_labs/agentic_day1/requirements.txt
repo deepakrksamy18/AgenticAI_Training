@@ -1,0 +1,17 @@
+# Agentic AI Deep Dive, Day 1 labs. Built and checked with the versions in the comments.
+# Modules 2, 3, 4, 6 and m5_1 (one environment):
+langchain>=1.4            # 1.4.4
+langchain-openai>=1.7     # 1.7.0
+langgraph>=1.2            # 1.2.14
+langchain-mcp-adapters    # 0.3.2  (m6_3 only)
+mcp                       # 1.30.0 (m6_3 only)
+
+# Module 5 framework files: install each in its OWN virtual environment, their dependencies conflict.
+#   m5_2_autogen_team.py           pip install -U autogen-agentchat "autogen-ext[openai]"   (0.7.5)
+#   m5_3_crewai_crew.py            pip install -U crewai                                     (1.15.27)
+#   m5_4_semantic_kernel_agent.py  pip install -U semantic-kernel                            (1.45.0)
+#   m5_5_openai_agents_sdk.py      pip install -U openai-agents                              (0.23.1)
+
+# Environment variables read by every file:
+#   AZURE_OPENAI_DEPLOYMENT, AZURE_OPENAI_BASE_URL, AZURE_OPENAI_API_KEY
+#   AZURE_OPENAI_EMBEDDING_DEPLOYMENT   (m4_3 only)
