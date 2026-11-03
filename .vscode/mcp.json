@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "telecom-billing": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": [
+        "${workspaceFolder}/Day2/d2_4_mcp_server.py"
+      ]
+    }
+  }
+}
