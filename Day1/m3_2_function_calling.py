@@ -18,7 +18,7 @@ Also covered
 Prompts to try
   - Is payments-api healthy on app-01 and app-02?          (expect two calls in one turn)
   - Restart payments-api on app-03.                         (unknown host: the error goes back to the model)
-  - What is the capital of France?                          (no tool needed: with tool_choice="required" it must still call one)
+  - What is the capital of France?                           (no tool needed: with tool_choice="required" it must still call one)
 """
 import json
 
